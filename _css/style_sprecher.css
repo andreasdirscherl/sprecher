@@ -1,0 +1,105 @@
+body {
+	background-color:#555555;
+	color:#CCCCCC;
+	margin:0;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	font-family: "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+	text-align: center;
+	font-size: 12px;
+}
+#Titel {
+	position:absolute;
+	bottom: 50px;
+	left: 0px;
+	height:200px;
+	width:200px;
+	background: url('../_images/portraitSW.jpg') no-repeat;
+	margin:0;
+
+}
+#Titel h1{
+	color: #F90;
+	font-weight: bold;
+	position: relative;
+	left: 43px;
+	top: 145px;
+	font-size: 1.4em;
+}
+
+#Inhalt {
+    position:absolute;
+    bottom: 75px;
+    left: 300px;
+    width:400px;
+    height: 300px;
+    margin-bottom:0px;
+    border: 1px solid #CCCCCC;
+    padding: 20px;
+
+}
+#Inhalt h1 {
+	position: absolute;
+	bottom: 380px;
+	left: 20px;
+	font-variant: normal;
+	font-weight:bold;
+	text-align:left;
+
+    font-size:2.em;
+	margin: 5px 0;
+}
+#Inhalt h2 {
+	position: absolute;
+	bottom: 360px;
+	left: 35px;
+	font-variant: normal;
+	font-weight:bold;
+	text-align:left;
+	font-size:1em;
+	margin: 5px 0;
+}
+ul#Footer {
+    position:absolute;
+    bottom: 0px;
+    left: 0px;
+    width:98%;
+    height: 50px;
+    background-color: black;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-variant: normal;
+    font-weight:normal;
+    text-align:left;
+    font-size:0.8em;
+    border-top: 1px solid #CCCCCC;
+    padding:1%;
+    float:left;
+    margin:0
+}
+ul#Footer li {
+   font-size:0.9em;
+   list-style: none;
+   margin-right: 10px;
+   display: inline;
+}
+ul#Navigation li a {
+   display: block;
+   font-size:0.9em;
+   text-decoration: none;
+   padding: 20px 0px;  /* Das ist der Abstand der Navigationselemente zwischen den Linien */
+   border-top: 2px solid white; /* Jedes Navigationselement hat eine Begrenzungslinie oben und unten */
+   border-bottom: 2px solid white;
+   color:#333333;
+   font-weight:bold;
+}
+* html ul#Navigation li a {  /* Breitenangaben nur fuer IE */
+    width: 100%;
+    w\idth: 100%;
+}
+ul#Navigation li a:hover {
+   background-color: #FFE0A2;
+   text-decoration: none;
+   display: block;
+   padding: 20px 0px;  /* hier wiederholen sich die Angaben der einzelnen Elemente fuer hover */
+}

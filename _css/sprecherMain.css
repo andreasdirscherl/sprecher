@@ -1,0 +1,156 @@
+@charset "utf-8";
+* { 
+	margin:0;
+	padding:0;
+}
+
+body {
+	background:#555;
+	color: #ddd;
+	font-size:85%;
+	font-family:'Trebuchet MS', Arial, Helvetica, sans-serif;
+	}
+
+h2 {
+	font-size:1.2em;
+	margin-top: 1em;
+	}
+
+p {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+img {
+	margin-right: 5px;
+	border: none;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+a:hover {
+	color: #DDD;
+	background: #888;
+	text-decoration: underline;
+}
+
+
+#wrapper {
+	width:980px;
+	margin: 30px auto;
+	background:url(../_images/mikroBG.jpg) no-repeat top right;
+	}
+
+#header {
+	height:100px;
+	background: url(http://alexandertechnik.andreasdirscherl.de/bilder/portraitnav.jpg) no-repeat top right;
+	padding-top: 60px;
+	margin-bottom: 50px;
+	border-top: 2px solid #CCC;
+	}
+#header #portrait {
+    float: right;
+}
+#header h1 {
+	line-height: 32px;
+}
+
+#header h2 {
+	font-size:1.2em;
+	margin-top: 0px;
+}
+#sidebar {
+	float: right;
+	width: 420px;
+	margin-top: 0px;
+	background-color: #888;
+	padding: 20px;
+}
+#sidebar h2 {
+	margin-top: 0px;
+	/* [disabled]margin-bottom: 1.5em; */
+	/* [disabled]text-decoration: underline; */
+	font-size: 140%;
+}
+#sidebar h3 {
+	margin-top: 0em;
+	font-size: 110%;
+	line-height: 1.5;
+}
+
+#sidebar table {
+	font-size: 0.9em;
+	text-align: left;
+	width: 610px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	background: #FFF;
+	color: #333;
+	border-collapse: collapse;
+	border: 1px solid #CCC;
+}
+/* Caption CSS ist schwierig, sieh Tutorials, daher ein paar eigenartige Margin- und Width-Angaben*/
+#sidebar table caption {
+	font-size: 1.2em;
+	text-align: left;
+	margin: 0px 0px 0px -1px;
+	font-weight: bold;
+	background: white;
+	color: #555;
+	padding: 10px;
+	border: 1px solid #CCC;
+	width: 611px;
+}
+#sidebar thead th{
+	background: white;
+	color: #555;
+	border-top: 1px none #555;
+	border-right: 1px dotted #555;
+	border-bottom: 1px dotted #555;
+	border-left: 1px dotted #555;
+	padding-left: 10px;
+}
+
+#schichtdetails .programmName {
+	text-align: center;
+}
+
+#sidebar #schichtdetails img {
+	margin-bottom: 10px;
+	border-style: none;
+}
+#sidebar tbody th{
+	padding-left: 10px;
+	border: 1px dotted white;
+	font-weight: bold;
+}
+
+#sidebar  tbody#bayern1 {
+	color: #EEE;
+	background: #0092D2;
+}
+
+#sidebar tbody#bayern2  {
+	color: #DDD;
+	background: #EB6809;
+}
+#sidebar tbody#b5aktuell  {
+	color: #DDD;
+	background: #E40061;
+}
+
+
+#sidebar td {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	border: 1px dotted white;
+}
+.small  {
+	font-size: .85em;
+}
+button {
+	/* [disabled]border: none; */
+	cursor: pointer;
+	background-color: #EEE;
+	width: 120px;
+}
